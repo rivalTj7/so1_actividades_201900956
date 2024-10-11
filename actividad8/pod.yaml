@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: 201900956WBS
+  name: wbsrivaldo
   labels:
-    name: 201900956WBS
+    name: wbsrivaldo
     year: '2024'
 spec:
   containers:
-  - name: 201900956WBS
+  - name: wbsrivaldo
     image: nginx:1.27.2
     resources:
       limits:
