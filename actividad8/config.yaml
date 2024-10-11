@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 201900956WBS
+  labels:
+    name: 201900956WBS
+    year: '2024'
+spec:
+  containers:
+  - name: 201900956WBS
+    image: nginx:1.27.2
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+        - containerPort: 80
